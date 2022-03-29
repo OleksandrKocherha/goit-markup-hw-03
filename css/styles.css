@@ -7,6 +7,11 @@ ul {
   padding: 0;
   margin: 0;
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 /* Логотип */
 .logo-link {
@@ -89,8 +94,6 @@ main {
   background-color: #2f303a;
   width: 1600px;
   height: 300px;
-  left: 0px;
-  top: 80px;
 }
 .section-captain-title {
   font-family: "Roboto";
@@ -105,26 +108,22 @@ main {
 }
 /* Кнопка */
 .btn {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
   color: #ffffff;
 }
 .btn {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
+  min-width: 200px;
   background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+}
+.box {
 }
 .btn:hover {
   color: teal;
