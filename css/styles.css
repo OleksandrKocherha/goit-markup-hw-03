@@ -11,11 +11,14 @@ ul {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid tomato;
+  outline: 5px solid tomato;
 }
 
 /* Логотип */
 .logo-link {
+  padding-top: 24px;
+  padding-bottom: 25px;
+
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -94,7 +97,6 @@ main {
 .section-captain {
   background-color: #2f303a;
   width: 1600px;
-  height: 300px;
 }
 .section-captain-title {
   font-family: "Roboto";
