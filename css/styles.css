@@ -201,30 +201,37 @@ main {
   background-color: var(--primary-btn-hover-color);
 }
 
-/* Section 1 */
-.section .subtitle {
+.features {
   padding-top: 94px;
   padding-bottom: 94px;
+}
 
-  font-family: "Roboto";
-  font-style: normal;
+.features-list {
+  display: flex;
+  margin-left: calc(-1 * var(--pictures-margin));
+}
+.features-list .item {
+  flex-basis: calc(100% / 4 - var(--pictures-margin));
+  margin-left: var(--pictures-margin);
+}
+/* .features-list .item:not(:last-child) {
+  margin-right: 30px;
+} */
+.feature-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: var(--title-text-color);
 }
-.section .text {
-  font-family: "Roboto";
-  font-style: normal;
+.feature-description {
+  color: var(--text-color);
+  line-height: 1.7;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
-
-  color: var(--text-color);
+  text-align: left;
 }
 .we-do {
   padding-bottom: 94px;
