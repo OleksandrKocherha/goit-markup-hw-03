@@ -21,7 +21,7 @@ body {
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: solid 5px tomato; */
+  outline: solid 5px tomato;
 }
 
 h1,
@@ -159,7 +159,6 @@ main {
   padding-top: 200px;
   padding-bottom: 200px;
 
-  width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -169,7 +168,7 @@ main {
 
   background-position: center;
   background-repeat: no-repeat;
-  background-size: color; */
+  background-size: cover; */
 }
 
 .hero-title {
